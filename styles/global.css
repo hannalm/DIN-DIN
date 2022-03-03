@@ -14,6 +14,7 @@ header{
     display: flex;
     padding: 20px 60px;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -32,4 +33,207 @@ header{
     font-size: 20px;
     text-decoration: none;
     margin: 10px 30px;
+}
+
+.comecar{
+    display: flex;
+    margin: 7% 10%;
+    justify-content: space-around;
+}
+#titulo-intro{
+    color: #FF4081;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+}
+#texto-intro{
+    color: #555555;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 10px 0px;  
+    margin: 20px 0px;  
+}
+#saber-mais{
+    color:#FF4081;
+    font-weight: 400;
+    display: inline;
+    border: 1px solid #FF4081;
+    border-radius: 40px 40px; 
+    padding: 5px 20px;
+    font-size: 25px;
+}
+
+.cursos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+ 
+}
+.img-cursos {
+    max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+}
+
+.nome-curso{
+    color: #FF4081;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.descricao-curso{
+    font-size: 17px;
+}
+
+.comecar-agora{
+    background-color: #FF4081;
+    color:#ffffff;
+    font-weight: 400;
+    display: inline;
+    border: 1px solid #FF4081;
+    border-radius: 40px 40px; 
+    padding: 5px 45px;
+    font-size: 20px;
+}
+.depoimentos-box{
+    margin: 100px;
+}
+
+#o-que-falam{
+    color: #009688;
+    font-weight: 700;
+    font-size: 37px;
+}
+
+.depoimentos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img-depo{
+    max-width:110px;
+    max-height:110px;
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+.depo{
+    display: flex;
+    margin: 10px;
+    }
+
+.quote{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.id-cliente{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.mais-conteudo{
+    margin: 100px;
+    text-align: center;
+}
+
+#titulo-mais-conteudo{
+    color: #009688;
+    font-weight: 700;
+    font-size: 37px;
+    text-align: left;
+}
+
+.conteudo-blog{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.img-blog{
+    width: auto;
+    height: auto;
+    margin: 10px 0px;
+    
+}
+
+.materia-blog{
+    max-width:320px;
+    width: auto;
+    height: auto;
+    margin: 10px;
+
+}
+
+.titulo-blog{
+    color: #009688;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 0;
+
+}
+
+.texto-blog{
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0%;
+}
+
+#mais-posts{
+    color:#FF4081;
+    font-weight: 400;
+    display: inline;
+    border: 1px solid #FF4081;
+    border-radius: 40px 40px; 
+    padding: 5px 45px;
+    font-size: 25px;
+    text-align: center;
+    margin: 80px;
+}
+
+
+footer{
+    background-color:  #419488;
+    display: flex;
+    padding: 20px 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.footer-item{
+    display: flex;
+    flex-direction: row;
+    }
+.footer-link{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 30px;
+}
+.menu-outros{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.button-footer{
+    background-color: #419488;
+    color:#ffffff;
+    font-weight: 400;
+    display: inline;
+    border: 1px solid #ffffff;
+    border-radius: 40px 40px; 
+    padding: 5px 45px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    
 }
