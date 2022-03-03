@@ -204,6 +204,7 @@ header{
     color: #555555;
     font-size: 20px;
     margin: 0;
+    margin-top: 5px;
     font-weight: normal;
 }
 
@@ -215,7 +216,7 @@ header{
 hr{
     border: 0;
 	background-color: #c4c4c4;
-    height: 5px;
+    height: 3px;
     width: 100%;
     color: #C4C4C4;
 }
@@ -266,9 +267,62 @@ hr{
     padding: 5px 45px;
     font-size: 20px;
     margin-top: 30px;
-
 }
 
+
+.intro{
+    margin: 80px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.info-curso{
+    margin-left: 80px;
+}
+
+.text-investimento{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.videoaulas{
+    margin: 80px;
+}
+
+.aula{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    gap: 80px;
+}
+
+.player{
+    max-width:500px;
+    max-height: 270px;
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+
+.detalhe-aula{
+    max-width:500px;
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+
+.titulo-aula{
+    color: #FF4081;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.descricao-aula{
+    font-size: 20px;
+    font-weight: 300;
+
+}
 
 footer{
     background-color:  #419488;
