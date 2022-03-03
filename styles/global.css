@@ -17,6 +17,10 @@ header{
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+}
+
 /*pag1*/
 
 .menu{
@@ -38,7 +42,7 @@ header{
 
 .comecar{
     display: flex;
-    margin: 7% 10%;
+    padding: 7% 10% 4% 10%;
     justify-content: space-around;
 }
 .titulo{
@@ -68,6 +72,8 @@ header{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    background-color: #E5E5E5;
+    padding: 4% 0% 4% 0%;
  
 }
 .img-cursos {
@@ -138,8 +144,9 @@ header{
 }
 
 .mais-conteudo{
-    margin: 100px;
+    padding: 100px;
     text-align: center;
+    background-color: #E5E5E5;
 }
 
 #titulo-mais-conteudo{
@@ -389,6 +396,7 @@ hr{
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 50px;
+    color: #000000;
 }
 
 /*pag5*/
@@ -439,7 +447,8 @@ hr{
 }
 
 .secao-cursos{
-    margin: 130px;
+    padding: 80px 0;
+    background-color: #E5E5E5;
 }
 
 .conheca-cursos{
@@ -447,8 +456,9 @@ hr{
     font-size: 50px;
     font-weight: 500;  
     text-align: center; 
-    margin: 80px; 
-}
+    margin: 0;
+    padding-bottom: 50px;
+    }
 
 /*pag6*/
 
