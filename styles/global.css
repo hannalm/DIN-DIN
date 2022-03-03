@@ -195,6 +195,7 @@ a{
 
 #mais-posts{
     color:#FF4081;
+    background-color: #E5E5E5;
     font-weight: 400;
     display: inline;
     border: 1px solid #FF4081;
@@ -203,6 +204,7 @@ a{
     font-size: 25px;
     text-align: center;
     margin: 80px;
+    margin-bottom: 0;
 }
 
 /*pag2*/
