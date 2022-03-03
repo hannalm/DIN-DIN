@@ -17,6 +17,7 @@ header{
     align-items: center;
 }
 
+/*pag1*/
 
 .menu{
     margin: 0px;
@@ -196,6 +197,8 @@ header{
     margin: 80px;
 }
 
+/*pag2*/
+
 .pag-cursos{
     margin: 80px;
 }
@@ -236,7 +239,7 @@ hr{
 
 }
 
-.img-curso2{
+.img2{
     max-width:400px;
     max-height:400px;
     width: auto;
@@ -269,8 +272,9 @@ hr{
     margin-top: 30px;
 }
 
+/*pag3*/
 
-.intro{
+.intro-investimento{
     margin: 80px;
     display: flex;
     justify-content: space-between;    
@@ -323,6 +327,69 @@ hr{
     font-weight: 300;
 
 }
+
+/*pag4*/
+
+.blog-intro{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+
+.textos-intro{
+    margin: 40px;
+    max-width: 450px;
+    width: auto;
+    height: auto;
+}
+
+.titulo-blog-intro{
+    color: #009688;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.info-blog{
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.blog-posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px 100px 100px 180px;    
+}
+
+.posts{
+    max-width: 520px;   
+    width: auto;
+    height: auto;
+}
+
+.img-post{
+    max-width: 520px;
+    max-height: 260px;
+    width: auto;
+    height: auto;
+
+}
+
+.titulo-post{
+    color: #FF4081;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.texto-post{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
 
 footer{
     background-color:  #419488;
