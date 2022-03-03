@@ -450,8 +450,77 @@ hr{
     margin: 80px; 
 }
 
+/*pag6*/
 
+#pag-contato{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;   
+    margin: 80px;
+}
 
+.contato{
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+}
+
+.contato-titulo{
+    color: #FF4081;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+form{
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    margin-left: 20px;
+    gap: 20px;
+    }
+
+input{
+    width: 100%;
+    border: 1px solid #686868;
+    border-radius: 5px;
+    height: 30px;        
+}
+textarea{
+    width: 100%;
+    height: 300px;
+    border: 1px solid #686868;
+    border-radius: 5px;
+}
+
+::placeholder{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    max-height: 200px;
+}
+
+.enviar{
+    background-color: #FF4081;
+    color:#ffffff;
+    font-weight: 400;
+    display: inline;
+    border: 1px solid #FF4081;
+    border-radius: 40px 40px; 
+    padding: 5px 45px;
+    font-size: 20px;
+}
+
+#img-contato{
+    max-width: 444px;
+    max-height: 444px;
+    width: 100%;
+    height: 100%;
+    margin: 80px;
+}    
 
 footer{
     background-color:  #419488;
