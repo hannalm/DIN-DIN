@@ -40,7 +40,7 @@ header{
     margin: 7% 10%;
     justify-content: space-around;
 }
-#titulo-intro{
+.titulo{
     color: #FF4081;
     font-size: 60px;
     font-weight: 700;
@@ -84,7 +84,8 @@ header{
 }
 
 .descricao-curso{
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .comecar-agora{
@@ -195,6 +196,79 @@ header{
     margin: 80px;
 }
 
+.pag-cursos{
+    margin: 80px;
+}
+
+.subtitulo{
+    color: #555555;
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.box-cursos{
+    margin: 50px 10px;
+
+}
+
+hr{
+    border: 0;
+	background-color: #c4c4c4;
+    height: 5px;
+    width: 100%;
+    color: #C4C4C4;
+}
+
+.curso-pag2{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.curso-tipo{
+    margin: 30px;
+    max-width:750px;    
+    width: auto;
+    height: auto;
+
+}
+
+.img-curso2{
+    max-width:400px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+.nome-curso2{
+    color: #FF4081;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 3px;
+}
+
+
+.descricao-curso2{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 30px 30px 30px 0px;
+}
+
+.comecar-agora-curso{
+    background-color: #2E948A;
+    color:#ffffff;
+    font-weight: 400;
+    display: inline;
+    border: 1px solid#2E948A;
+    border-radius: 40px 40px; 
+    padding: 5px 45px;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
 
 footer{
     background-color:  #419488;
@@ -203,9 +277,6 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-
-
-
 
 .footer-item{
     display: flex;
