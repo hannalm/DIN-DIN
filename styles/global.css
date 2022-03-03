@@ -282,6 +282,7 @@ hr{
 
 .info-curso{
     margin-left: 80px;
+    max-width: 500px;
 }
 
 .text-investimento{
@@ -389,6 +390,67 @@ hr{
     font-weight: 300;
     margin-bottom: 50px;
 }
+
+/*pag5*/
+
+.post-blog{
+    margin: 100px 205px;
+    
+
+}
+
+.post-titulo{
+    text-align: center;
+    color: #FF4081;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.post-data{
+    text-align: center;
+    color: #9D9D9D;
+    font-size: 18px;
+    font-weight: 300;    
+}
+
+.post-img{
+    max-width:1032px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    margin: 20px 0;
+}
+
+.artigo{
+    max-width:1032px;
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.subtitulo-artigo{
+    color: #2E948A;
+    max-width:1032px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.secao-cursos{
+    margin: 130px;
+}
+
+.conheca-cursos{
+    color: #FF4081;
+    font-size: 50px;
+    font-weight: 500;  
+    text-align: center; 
+    margin: 80px; 
+}
+
+
 
 
 footer{
