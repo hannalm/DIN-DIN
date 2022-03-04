@@ -12,9 +12,11 @@ body{
 header{
     background-color:  #2E948A;
     display: flex;
-    padding: 20px 60px;
+    padding: 2% 6%;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
 
 a{
@@ -24,9 +26,7 @@ a{
 /*pag1*/
 
 .menu{
-    margin: 0px;
-    padding: 30px;
-   
+    margin: 0px;   
 }
 
 .menu-item{
@@ -35,41 +35,48 @@ a{
 .menu-item-link{
     color: #fff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.7vw;
     text-decoration: none;
-    margin: 10px 30px;
+    margin: 0px 30px;
 }
 
 .comecar{
     display: flex;
     padding: 7% 10% 4% 10%;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img-intro{
+    max-width: 90%;
 }
 .titulo{
     color: #FF4081;
-    font-size: 60px;
+    font-size: 4.5vw;;
     font-weight: 700;
     margin: 0;
 }
 #texto-intro{
     color: #555555;
-    font-size: 25px;
+    font-size: 2.1vw;
     font-weight: 400;
     margin: 10px 0px;  
     margin: 20px 0px;  
 }
-#saber-mais{
+.saber-mais{
     color:#FF4081;
     font-weight: 400;
     display: inline;
     border: 1px solid #FF4081;
     border-radius: 40px 40px; 
     padding: 5px 20px;
-    font-size: 25px;
+    font-size: 2.1vw;
 }
+
+
 
 .cursos{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
     background-color: #E5E5E5;
@@ -81,17 +88,18 @@ a{
     max-height:300px;
     width: auto;
     height: auto;
+    max-width: 90%;
 }
 
 .nome-curso{
     color: #FF4081;
-    font-size: 25px;
+    font-size: 2.1vw;
     font-weight: 700;
     margin: 20px;
 }
 
 .descricao-curso{
-    font-size: 18px;
+    font-size: 1.4vw;
     font-weight: 300;
 }
 
@@ -103,16 +111,16 @@ a{
     border: 1px solid #FF4081;
     border-radius: 40px 40px; 
     padding: 5px 45px;
-    font-size: 20px;
+    font-size: 1.6vw;
 }
 .depoimentos-box{
-    margin: 100px;
+    margin: 8%;
 }
 
 #o-que-falam{
     color: #009688;
     font-weight: 700;
-    font-size: 37px;
+    font-size: 3vw;
 }
 
 .depoimentos{
@@ -126,6 +134,7 @@ a{
     width: auto;
     height: auto;
     margin: 10px;
+    max-width: 90%;
 }
 
 .depo{
@@ -134,12 +143,12 @@ a{
     }
 
 .quote{
-    font-size: 18px;
+    font-size: 1.5vw;
     font-weight: 300;
 }
 
 .id-cliente{
-    font-size: 18px;
+    font-size: 1.5vw;
     font-weight: 400;
 }
 
@@ -152,12 +161,13 @@ a{
 #titulo-mais-conteudo{
     color: #009688;
     font-weight: 700;
-    font-size: 37px;
+    font-size: 3vw;
     text-align: left;
 }
 
 .conteudo-blog{
     display: flex;
+    
     justify-content: space-between;
     text-align: left;
 }
@@ -166,6 +176,7 @@ a{
     width: auto;
     height: auto;
     margin: 10px 0px;
+    max-width: 90%;
     
 }
 
@@ -180,7 +191,7 @@ a{
 .titulo-blog{
     color: #009688;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 2.1vw;
     margin: 0;
 
 }
@@ -188,11 +199,11 @@ a{
 .texto-blog{
     color: #000000;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.6vw;
     margin: 0%;
 }
 
-#mais-posts{
+.mais-posts{
     color:#FF4081;
     background-color: #E5E5E5;
     font-weight: 400;
@@ -200,21 +211,21 @@ a{
     border: 1px solid #FF4081;
     border-radius: 40px 40px; 
     padding: 5px 45px;
-    font-size: 25px;
+    font-size: 1.8vw;
     text-align: center;
-    margin: 80px;
+    margin: 7%;
     margin-bottom: 0;
 }
 
 /*pag2*/
 
 .pag-cursos{
-    margin: 80px;
+    margin: 7%
 }
 
 .subtitulo{
     color: #555555;
-    font-size: 20px;
+    font-size: 1.6vw;
     margin: 0;
     margin-top: 5px;
     font-weight: normal;
@@ -237,11 +248,11 @@ hr{
     display: flex;
     justify-content: space-between;
     text-align: left;
-    margin-bottom: 30px;
-    margin-top: 60px;
+    margin-bottom: 3%;
+    margin-top: 6%;
 }
 .curso-tipo{
-    margin: 30px;
+    margin: 3%;
     max-width:750px;    
     width: auto;
     height: auto;
@@ -253,20 +264,22 @@ hr{
     max-height:400px;
     width: auto;
     height: auto;
-    margin: 20px;
+    margin: 2%;
+    max-width: 90%;
+    object-fit: scale-down;
 }
 .nome-curso2{
     color: #FF4081;
-    font-size: 35px;
+    font-size: 2.9vw;
     font-weight: 700;
     margin: 3px;
 }
 
 
 .descricao-curso2{
-    font-size: 18px;
+    font-size: 1.5vw;
     font-weight: 300;
-    margin: 30px 30px 30px 0px;
+    margin: 5% 5% 5% 0;
 }
 
 .comecar-agora-curso{
@@ -277,37 +290,38 @@ hr{
     border: 1px solid#2E948A;
     border-radius: 40px 40px; 
     padding: 5px 45px;
-    font-size: 20px;
-    margin-top: 30px;
+    font-size: 1.6vw;
+    margin-top: 5%;
 }
 
 /*pag3*/
 
 .intro-investimento{
-    margin: 80px;
+    margin: 6%;
     display: flex;
+    
     justify-content: space-between;    
 }
 
 .info-curso{
-    margin-left: 80px;
+    margin-left: 7%;
     max-width: 500px;
 }
 
 .text-investimento{
-    font-size: 20px;
+    font-size: 1.6vw;
     font-weight: 300;
 }
 
 .videoaulas{
-    margin: 80px;
+    margin: 6%;
 }
 
 .aula{
-    display: flex;
+    display: flex; 
     justify-content: space-between;
-    margin: 80px;
-    gap: 80px;
+    margin: 7% 0;
+    gap: 7%;
 }
 
 .player{
@@ -316,10 +330,13 @@ hr{
     width: auto;
     height: auto;
     margin: 20px;
+    max-width: 45%;
+    object-fit: scale-down;
+    
 }
 
 .detalhe-aula{
-    max-width:500px;
+    max-width:45%;
     width: auto;
     height: auto;
     margin: 20px;
@@ -327,13 +344,13 @@ hr{
 
 .titulo-aula{
     color: #FF4081;
-    font-size: 35px;
+    font-size: 2.7vw;
     font-weight: 700;
     margin-top: 0px;
 }
 
 .descricao-aula{
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 300;
 
 }
@@ -342,6 +359,7 @@ hr{
 
 .blog-intro{
     display: flex;
+    
     margin: 50px;
     align-items: center;
     justify-content: space-evenly;
@@ -356,12 +374,12 @@ hr{
 
 .titulo-blog-intro{
     color: #009688;
-    font-size: 50px;
+    font-size: 3.5vw;
     font-weight: 700;
 }
 
 .info-blog{
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 300;
 
 }
@@ -384,18 +402,18 @@ hr{
     max-height: 260px;
     width: auto;
     height: auto;
-
+    max-width: 90%;
 }
 
 .titulo-post{
     color: #FF4081;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 2.2vw;
     margin: 15px 0;
 }
 
 .texto-post{
-    font-size: 18px;
+    font-size: 1.3vw;
     font-weight: 300;
     margin-bottom: 50px;
     color: #000000;
@@ -404,22 +422,21 @@ hr{
 /*pag5*/
 
 .post-blog{
-    margin: 100px 205px;
-    
+    margin: 100px 205px;  
 
 }
 
 .post-titulo{
     text-align: center;
     color: #FF4081;
-    font-size: 50px;
+    font-size: 3.5vw;
     font-weight: 500;
 }
 
 .post-data{
     text-align: center;
     color: #9D9D9D;
-    font-size: 18px;
+    font-size: 1.3vw;
     font-weight: 300;    
 }
 
@@ -429,13 +446,14 @@ hr{
     width: auto;
     height: auto;
     margin: 20px 0;
+    max-width: 90%;
 }
 
 .artigo{
     max-width:1032px;
     width: auto;
     height: auto;
-    font-size: 18px;
+    font-size: 1.4vw;
     font-weight: 300;
 }
 
@@ -444,7 +462,7 @@ hr{
     max-width:1032px;
     width: auto;
     height: auto;
-    font-size: 20px;
+    font-size: 1.6vw;
     font-weight: 500;
 }
 
@@ -455,7 +473,7 @@ hr{
 
 .conheca-cursos{
     color: #FF4081;
-    font-size: 50px;
+    font-size: 3.5vw;
     font-weight: 500;  
     text-align: center; 
     margin: 0;
@@ -466,6 +484,7 @@ hr{
 
 #pag-contato{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row; 
     justify-content: space-between;   
     margin: 80px;
@@ -479,7 +498,7 @@ hr{
 
 .contato-titulo{
     color: #FF4081;
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: 700;
 
 }
@@ -523,7 +542,7 @@ textarea{
     border: 1px solid #FF4081;
     border-radius: 40px 40px; 
     padding: 5px 45px;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 #img-contato{
@@ -537,21 +556,23 @@ textarea{
 footer{
     background-color:  #419488;
     display: flex;
-    padding: 20px 60px;
+    flex-wrap: wrap;
+    padding: 1% 3%;
     justify-content: space-between;
     align-items: center;
 }
 
 .footer-item{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     }
 .footer-link{
     color: #fff;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.5vw;
     text-decoration: none;
-    margin: 10px 30px;
+    margin: 10% 30%;
 }
 .menu-outros{
     display: flex;
@@ -567,90 +588,65 @@ footer{
     border: 1px solid #ffffff;
     border-radius: 40px 40px; 
     padding: 5px 45px;
-    font-size: 20px;
+    font-size: 1.5vw;
     text-align: center;
-    margin: 10px;
+    margin: 10px 10px;
     
 }
-
-/*
-@media (max-width: 1000px) {
-    .image-banner {
-      height: 300px;
-    }
-
-    banner p {
-        font-size: 25px;
-    }
-
-    .button-banner {
-        font-size: 25px;
-    }
-
-    .image-card {
-      display: none;
-    }
-
-    .card-section1 {
-        width: 250px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .card-section1 h3 {
-        font-size: 35px;
-    } 
-
-    .card-section1 p {
-        font-size: 25px;
-    }
-
-    .depoimento01 p {
-        font-size: 30px;
-    }
-    
-    .depoimento01{
-        display: flex;
-        width: 100%;
-        text-align: left;
-        align-items: center;
-        margin: 20px 0;
-    }
-
-    .tres {
-        width:200px;
-        height:115px;
-        background-color: #C4C4C4;
-        margin: 10px 0;
-    }
-
-    .nav01 {
-        width: 250px;
-        padding-bottom: 0;
-    }
-    
-    .nav01 p {
-        display: none;
-    }
-
-    .button-nav {
-        font-size: 25px;
-        padding-top: 0;
-    }
-
-     HEADER E FOOTER 
-    .menu-item-link {
-        font-size: 30px;
-    }
-
-    .menu-item-link2 {
-        font-size: 25px;
-    }
-     
-    .button {
-        font-size: 22px;
-        height: 50px;
-        width: 300px;
-    }
+button:hover {
+    transition: .5 all;
+    background-color: #FFFFFF;
+    color: #2E948A;
 }
-*/
+
+@media (max-width: 850px){
+    
+        .img-intro{
+            width: 200px;
+
+        }
+        .img-cursos{
+            height: 180px;
+        }
+        .img-depo{
+            width: 80px;
+        }
+        .img-blog{
+            width: 150px;
+        }
+        .img2{
+            width: 200px;
+        }
+        .img-post{
+            width: 200px;
+        }
+
+    
+
+}
+
+
+@media (max-width:500px){
+    
+    .img-intro{
+        width: 150px;
+
+    }
+    .img-cursos{
+        height: 100px;
+    }
+    .img-depo{
+        width: 60px;
+    }
+    .img-blog{
+        width: 100px;
+    }
+    .img2{
+        width: 150px;
+    }
+    .img-post{
+        width: 150px;
+    }
+
+    
+}
